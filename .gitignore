@@ -1,3 +1,6 @@
 build/
 .idea/
 .gradle/
+bin/
+Jenkinsfile*
+/bin/

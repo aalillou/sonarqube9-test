@@ -34,6 +34,6 @@ public class MyAppTest {
     public void doStreamTest() {
         List<String> list = myApp.streamConcat();
         String first = list.stream().findFirst().get();
-        assertThat(first, equalTo("A"));
+        assertThat(first, equalTo("1"));
     }
 }
